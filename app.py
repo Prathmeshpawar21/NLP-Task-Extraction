@@ -13,6 +13,7 @@ nlp = spacy.load("en_core_web_sm")
 
 # Stopwords
 nltk.download('stopwords')
+nltk.download('punkt')
 stop_words = set(stopwords.words("english"))
 
 DEADLINE_PATTERNS = [
